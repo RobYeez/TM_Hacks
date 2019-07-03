@@ -5,7 +5,7 @@ import logo from '../images/logoz.svg';
 
 const Navbarin = ({handleLogout}) => {
     return (
-        <div>
+        <div style={{color: "#136fdc"}}>
             <Navbar bg="light" expand="lg">
                 <Navbar.Brand href="/">
                     <div align='center'><img src={logo} width='200' height='25'/></div>
