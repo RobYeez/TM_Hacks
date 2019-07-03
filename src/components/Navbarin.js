@@ -2,11 +2,11 @@ import React from 'react'
 import {Navbar} from 'react-bootstrap'
 import {Nav} from 'react-bootstrap'
 import logo from '../images/logoz.svg';
-
-const Navbarin = ({handleLogout}) => {
+import '../StyleSheets/navbar.css'
+const Navbarin = () => {
     return (
-        <div style={{color: "#136fdc"}}>
-            <Navbar bg="light" expand="lg">
+        <div>
+            <Navbar id="hardchange" variant="light" expand="lg">
                 <Navbar.Brand href="/">
                     <div align='center'><img src={logo} width='200' height='25'/></div>
                 </Navbar.Brand>
