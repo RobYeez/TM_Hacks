@@ -40,12 +40,12 @@ export default class Profile extends React.Component {
 
                             <Form.Group controlId="formGridAddress1">
                                 <Form.Label>Address</Form.Label>
-                                <Form.Control placeholder="1234 Main St" />
+                                <Form.Control placeholder="1234 Someone Save me..." />
                             </Form.Group>
 
                             <Form.Group controlId="formGridAddress2">
                                 <Form.Label>Address 2</Form.Label>
-                                <Form.Control placeholder="Apartment, studio, or floor" />
+                                <Form.Control placeholder="Apartment, studio, ...please" />
                             </Form.Group>
 
                             <Form.Row>
@@ -106,18 +106,22 @@ export default class Profile extends React.Component {
                         {/*<p>Estimated Points: {points} </p>*/}
                     <p>Fees: $17.65 </p>
                     <p>Total: $145.47</p>
+                        <Form>
                     <p>Estimated Points Gained: 0.09</p>
                         <Button variant="primary" type="submit">
                             Submit
                         </Button>
+                        </Form>
                     </Card.Body>
                     </Card>
                         </GridLayout>
                     </Container>
                 </div>
             </div>
+
         );
     }
+
 
     render() {
         return this.LoggedInPage();
